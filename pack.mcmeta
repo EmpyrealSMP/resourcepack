@@ -1,6 +1,7 @@
 {
   "pack": {
-    "description": "Example datapack for Minecraft 1.21",
-    "pack_format": 69
+    "description": "@guhw on dc",
+    "min_format": 75,
+    "max_format": 75
   }
 }
