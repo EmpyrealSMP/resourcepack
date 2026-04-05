@@ -1,0 +1,7 @@
+{
+	"format_version": "1.21.11",
+	"parent": "gcw:item/reapers_scythe",
+	"textures": {
+		"layer0": "gcw:item/reapers_scythe_activated"
+	}
+}

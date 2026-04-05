@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "on_false": {
+            "type": "minecraft:model",
+            "model": "gcw:item/blink_of_glory"
+        },
+        "on_true": {
+            "type": "minecraft:range_dispatch",
+            "entries": [
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "gcw:item/blink_of_glory/pull1"
+                    },
+                    "threshold": 0.9
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "gcw:item/blink_of_glory/pull0"
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+        },
+        "property": "minecraft:using_item"
+    }
+}

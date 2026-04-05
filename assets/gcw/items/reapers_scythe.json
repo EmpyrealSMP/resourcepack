@@ -1,0 +1,14 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_false": {
+                "type": "minecraft:model",
+                "model": "gcw:item/reapers_scythe"
+        },
+        "on_true": {
+                "type": "minecraft:model",
+                "model": "gcw:item/reapers_scythe_activated"
+        }
+    }
+}

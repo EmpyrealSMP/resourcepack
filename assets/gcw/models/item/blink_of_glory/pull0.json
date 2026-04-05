@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "gcw:item/blink_of_glory/pull0"
+  }
+}
