@@ -9,6 +9,8 @@ jobs:
               with:
                   name: resource-pack
                   path: |
-                        .*
+                        pack.mcemta
+                        pack.png
+                        assets/*
                         !*.git*
                         !*.py
