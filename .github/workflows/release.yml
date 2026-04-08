@@ -1,0 +1,22 @@
+name: create release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag (ex: v1)"
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: zip -r resource-pack.zip pack.mcemta pack.png assets/
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag }}
+          files: resource-pack.zip
