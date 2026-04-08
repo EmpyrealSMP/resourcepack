@@ -10,7 +10,7 @@ jobs:
               with:
                   name: resource-pack
                   path: |
-                        pack.mcemta
+                        pack.mcmeta
                         pack.png
                         assets/*
                         !*.git*
