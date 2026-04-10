@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "gcw:item/dimensional_dagger"
+    "layer0": "gcw:item/dimensional_dagger/divergency"
   }
 }

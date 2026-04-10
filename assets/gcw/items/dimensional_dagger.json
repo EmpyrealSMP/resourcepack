@@ -1,6 +1,34 @@
 {
     "model": {
+        "type": "minecraft:select",
+        "index": 0,
+        "cases": [
+            {
+                "when": "Rip Space",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "gcw:item/dimensional_dagger/rip_space"
+                }
+            },
+            {
+                "when": "Pocket Dimension",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "gcw:item/dimensional_dagger/pocket_dimension"
+                }
+            },
+            {
+                "when": "Divergency",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "gcw:item/dimensional_dagger/divergency"
+                }
+            }
+        ],
+        "fallback": {
             "type": "minecraft:model",
-            "model": "gcw:item/dimensional_dagger"
+            "model": "gcw:item/dimensional_dagger/none"
+        },
+        "property": "minecraft:custom_model_data"
     }
 }
