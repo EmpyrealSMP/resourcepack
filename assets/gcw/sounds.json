@@ -1,0 +1,14 @@
+{
+    "master.lobotomize": {
+        "category": "master",
+        "sounds": [
+            "gcw:random/lobotomize"
+        ]
+    },
+    "master.womp_womp": {
+        "category": "master",
+        "sounds": [
+            "gcw:random/womp_womp"
+        ]
+    }
+}
