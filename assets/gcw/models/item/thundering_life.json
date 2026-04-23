@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.11",
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "gcw:item/thundering_life"
+  },
+
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [-45, -90, 0],
+        "translation": [0, 3, 0],
+        "scale": [1.5, 3, 1.5]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [-45, 90, 0],
+        "translation": [0, 3, 0],
+        "scale": [1.5, 3, 1.5]
+      },
+      "firstperson_righthand": {
+        "rotation": [-45, -90, 0],
+        "translation": [3.25, 5.25, 0],
+        "scale": [1.5, 3, 1.5]
+      },
+      "firstperson_lefthand": {
+        "rotation": [-45, 90, 0],
+        "translation": [3.25, 5.25, 0],
+        "scale": [1.5, 3, 1.5]
+      }
+  }}
